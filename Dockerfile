@@ -1,6 +1,9 @@
 
+FROM tomcat
+MAINTAINER mohan
+COPY ./webapps.war /usr/localtomcat/webapps
 
 
-FROM tomcat:8.0-alpine
-MAINTAINER: "Mohan"
+
+
 
